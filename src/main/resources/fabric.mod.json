@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "freakfly",
+  "version": "${version}",
+  "name": "FreakFly",
+  "description": "",
+  "authors": ["5c"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "op.legends.freakfly.Addon"
+    ]
+  },
+  "mixins": [
+    "freakfly.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
